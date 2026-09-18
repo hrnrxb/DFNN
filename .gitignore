@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.python-libs/
+visualizations/media/
+media/
+Unselected files/
+*.gz
+.DS_Store

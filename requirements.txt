@@ -1,0 +1,9 @@
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
+ipython>=8.0
+
+# Optional. Needed only to re-render the cinematic scenes.
+# Pre-rendered MP4s ship under visualizations/rendered/.
+manim>=0.18.0
+imageio-ffmpeg>=0.4.9
