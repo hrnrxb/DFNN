@@ -1,4 +1,4 @@
-# DFNN
+# DFNN - Dependency Free Neural Network 🧐
 
 A multilayer perceptron written in NumPy. Forward, reverse-mode autodiff, SGD with momentum, He / Xavier init, fused softmax-cross-entropy, and a raw IDX parser for MNIST. No PyTorch. No TensorFlow. No Keras.
 
