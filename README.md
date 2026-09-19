@@ -8,25 +8,6 @@ The whole engine lives in one notebook: [`Neural_Network_From_Scratch.ipynb`](Ne
   <img src="figures/hero.png" alt="DFNN banner: XOR fabric, matrix backprop, MNIST MLP" width="100%">
 </p>
 
-<!--
-HERO IMAGE PROMPT (regenerate figures/hero.png if you want a different take).
-Copy everything between the dashed lines into Midjourney / Flux / SD3 / whatever you use.
-
-----------
-Ultra-wide 16:9 museum-print scientific poster for a GitHub repo that builds a neural network from scratch in NumPy. Dark void #0B0F19, gold hairline frame. Not a glowing brain. Not a robot. Not circuit-board anatomy.
-
-LEFT: a 2D coordinate fabric like cloth on a loom, cyan grid lines first sheared by a linear map then folded by tanh. Four XOR beads on the two diagonals (crimson = class 0, gold = class 1), labels 00, 01, 10, 11. A gold knife trying a straight cut and failing. A green curve that actually separates them after the fold.
-
-CENTER: three smoked-glass matrix slabs in perspective, engraved X (N,784), W (784,256), Z = XW+b. A gold forward pulse left to right. A crimson backprop pulse right to left. Engraved identities that must be exactly these, no extra slashes: dW = X^T dZ , db = sum(dZ) , dX = dZ W^T , dL/dZ = (P-Y)/N. Below the slabs, a 4x4 softmax Jacobian heatmap collapsing into a thin P-Y bar. Caption: Softmax Jacobian.
-
-RIGHT: grainy phosphor MNIST digits 0-9, a few lime boxes on correct reads, one crimson box on a 4/9 mixup. Digits drain into a 784-256-64-10 column diagram with sparse cyan wires.
-
-BOTTOM: a ravine contour, vanilla SGD zigzag vs a smoother momentum path.
-
-Materials: anodized metal, smoked glass, chalk dust, film grain, NASA-patch seriousness, 3Blue1Brown geometry, Scientific American cover. Tiny DFNN in gold, top-right. No watermark, no stock-photo people, no UI mockups.
-----------
--->
-
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/python-3.10+-3776AB.svg" alt="Python 3.10+">
