@@ -45,8 +45,8 @@ The notebook is allowed to redefine `Dense`, `Activation`, and `SoftmaxCrossEntr
 ## Install and run
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/hrnrxb/DFNN
+cd DFNN
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook Neural_Network_From_Scratch.ipynb
